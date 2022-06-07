@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Sliders from './Componentes/Sliders';
+import { RoutersLinks } from './Constantes/RoutersLinks.js';
+import PPAplicacion from './Componentes/Pre_Post_Aplicacion';
+import Folleto from "./Componentes/Folleto";
+
+import './css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route exact path={RoutersLinks.Home} element={<Sliders />} />
+        <Route exact path={RoutersLinks.Protocolo} element={<PPAplicacion />} />
+        <Route exact path={RoutersLinks.folleto} element={<Folleto />} />
+      </Routes>
     </div>
   );
 }
