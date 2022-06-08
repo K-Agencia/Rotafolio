@@ -27,8 +27,7 @@ const ButtonSecciones = ({ handleSlider }) => {
                <Dropdown.Item onClick={() => handleSeccion(14)}>¿Es segura la aplicación?</Dropdown.Item>
                <Dropdown.Item onClick={() => handleSeccion(15)}><b>Otros usos</b></Dropdown.Item>
                <Dropdown.Item className="listNav" onClick={() => handleSeccion(16)}>Sensibilidad dental</Dropdown.Item>
-               <Dropdown.Item className="listNav" onClick={() => handleSeccion(17)}>Aparatología Ortodóntica</Dropdown.Item>
-               <Dropdown.Item onClick={() => handleSeccion(19)}>Consejos de ortodoncia</Dropdown.Item>
+               <Dropdown.Item className="listNav" onClick={() => handleSeccion(19)}>Aparatología Ortodóntica</Dropdown.Item>
                <Dropdown.Item onClick={() => handleSeccion(20)}>Cuidados posteriores a la aplicación</Dropdown.Item>
                <Dropdown.Item onClick={() => handleSeccion(21)}>Tarjeta Colgate Pass</Dropdown.Item>
             </Dropdown.Menu>
