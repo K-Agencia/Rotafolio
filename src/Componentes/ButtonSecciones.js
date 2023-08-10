@@ -30,6 +30,7 @@ const ButtonSecciones = ({ handleSlider }) => {
                <Dropdown.Item className="listNav" onClick={() => handleSeccion(19)}>Aparatología Ortodóntica</Dropdown.Item>
                <Dropdown.Item onClick={() => handleSeccion(20)}>Cuidados posteriores a la aplicación</Dropdown.Item>
                <Dropdown.Item onClick={() => handleSeccion(21)}>Tarjeta Colgate Pass</Dropdown.Item>
+               <Dropdown.Item onClick={() => handleSeccion(22)}>Recomendaciones para el paciente en casa</Dropdown.Item>
             </Dropdown.Menu>
             
          </Dropdown>
