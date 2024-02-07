@@ -96,10 +96,8 @@ img.ImagenDelLogo{
 }
 
 img.ImagenDelBannerFinal{
-    width: 650px;
+    width: 100%;
     margin: 16px 0;
-    z-index: 10;
-    bottom: 32px;
 }
 
 @media only screen and (max-width: 480px) {

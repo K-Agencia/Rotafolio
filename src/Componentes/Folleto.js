@@ -23,7 +23,7 @@ const Folleto = () => {
                         <ul>
                             <li>Las siguientes 2 horas luego de la aplicación, no ingerir ningún alimento, ni sólido ni líquido.</li>
                             <li>Después de las 2 horas iniciales, tener dieta blanda hasta las 12 horas.</li>
-                            <li>Cepilla tus dientes a las 12 horas de haber recibido la aplicación de Duraphat, así dejarás actuar la capa protectora de barniz, liberando el flúor que necesitas para tus dientes.</li>
+                            <li>Cepilla tus dientes a las 4 horas de haber recibido la aplicación de Duraphat, así dejarás actuar la capa protectora de barniz, liberando el flúor que necesitas para tus dientes.</li>
                         </ul>
                     </div>
                     <div className="f_recuadro rojo">
